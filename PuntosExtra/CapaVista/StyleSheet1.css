@@ -1,0 +1,13 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form {
+    float: left;
+}
+.Text{
+    margin-left:30px;
+    padding-right:50px;
+    padding-left:50px;
+}

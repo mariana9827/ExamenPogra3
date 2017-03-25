@@ -65,7 +65,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CapaVista\StyleSheet1.css" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Progra3 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Progra3 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,10 +77,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CapaVista\Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapaConexion\clsReservaControladora.cs" />
+    <Compile Include="CapaConexion\Controladora.cs" />
+    <Compile Include="CapaEntidad\clsReservaEntidad.cs" />
+    <Compile Include="CapaNegocios\clsReservaNegocios.cs" />
+    <Compile Include="CapaVista\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapaVista\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
